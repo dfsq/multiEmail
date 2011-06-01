@@ -17,7 +17,7 @@ The are number of options available to use:
 
 ### Example of usage ###
 
-<pre><code>$('#email1').multiEmail({
+<pre><code>$('#email').multiEmail({
     placeholder: 'Contact emails',
     fieldCss: {
         width: '350px'
