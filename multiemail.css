@@ -1,0 +1,68 @@
+.multiemail-cont {
+	border: 1px #AAA solid;
+	padding: 3px 4px;
+	cursor: text;
+	position: relative;
+	font-size: 12px;
+	line-height: 100%;
+}
+
+.multiemail-cont * {
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 100%;
+	line-height: 100%;
+	display: inline;
+}
+
+.multiemail-cont .multiemail-input {
+	width: 25px;
+	height: 16px;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	display: inline-block;
+}
+
+.multiemail-cont .multiemail-input:focus {
+	outline: none;
+}
+
+.multiemail-cont .multiemail-twin {
+	display: none;
+	position: absolute;
+	padding: 0;
+}
+
+.multiemail-cont .multiemail-email {
+	border: 1px #9BAFCF solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	padding: 1px 4px;
+	_vertical-align: middle;
+	margin: 0 3px 0 0;
+	background-color: #EFF5FF;
+	display: inline-block;
+	cursor: default;
+}
+
+.multiemail-cont .multiemail-email:hover {
+	background-color: #DFEBFF;
+}
+
+.multiemail-cont .multiemail-email.selected {
+	background-color: #5670A6;
+	color: #FFF;
+}
+
+.multiemail-cont .multiemail-email .multiemail-close {
+	padding-left: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.multiemail-cont .multiemail-placeholder {
+	display: none;
+	color: #999;
+	padding: 2px 0;
+}
