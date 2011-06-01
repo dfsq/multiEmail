@@ -14,3 +14,17 @@ The are number of options available to use:
 * values: [String:null] Comma-separated list of initially set emails.
 * removeHtml: [String:'x'] Symbol in place of remove email element. Maybe html-entity, html-image, text, etc.
 * label: [Bollean:true] Whether to use label for this email field. Label should have "for" attribute which is the same as the name of the email field.
+
+### Example of usage ###
+
+<pre><code>$('#email1').multiEmail({
+    placeholder: 'Contact emails',
+    fieldCss: {
+        width: '350px'
+    },
+    max: 5
+});</code></pre>
+
+[View demo page].
+
+[view demo page]: http://dfsq.info/projects/multiEmail
