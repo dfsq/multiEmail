@@ -1,8 +1,8 @@
-## multiEmail jQuery plugin ##
+# multiEmail jQuery plugin #
 
 Plugin transforms specified form field into multi-email form widget. It allows you to input several email addresses instead of one.
 
-### Available options ###
+## Available options ##
 
 The are number of options available to use:
 
@@ -15,15 +15,17 @@ The are number of options available to use:
 * removeHtml: [String:'x'] Symbol in place of remove email element. Maybe html-entity, html-image, text, etc.
 * label: [Bollean:true] Whether to use label for this email field. Label should have "for" attribute which is the same as the name of the email field.
 
-### Example of usage ###
+## Example of usage ##
 
-<pre><code>$('#email').multiEmail({
+```javascript
+$('#email').multiEmail({
     placeholder: 'Contact emails',
     fieldCss: {
         width: '350px'
     },
     max: 5
-});</code></pre>
+});
+```
 
 [View demo page].
 
