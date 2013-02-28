@@ -29,4 +29,4 @@ $('#email').multiEmail({
 
 [View demo page].
 
-[view demo page]: http://dfsq.info/projects/multiEmail
+[view demo page]: http://dfsq.info/site/read/jquery-multiemail
